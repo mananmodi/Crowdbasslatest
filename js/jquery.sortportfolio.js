@@ -64,6 +64,8 @@
 					_preFilterLink = $(this).parent();
 					_preFilterLink.addClass('current');						
 					}
+					
+						$('.scroll-pane').jScrollPane();
 				});
 			};
 			
@@ -110,6 +112,8 @@
 					if(_preOrderLink) _preOrderLink.removeClass('current');
 					_preOrderLink = $(this).parent();
 					_preOrderLink.addClass('current');
+					
+					$('.scroll-pane').jScrollPane();
 				});
 			};			
 						

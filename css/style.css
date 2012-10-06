@@ -1832,7 +1832,7 @@ p.sorryYou{ font-size:14px; color:#f25d28; clear:both; float:left; font-weight:b
 .myArtistPromote .myArtistPromoteInfo .myArtistPromotebtn { padding:0 0 5px; }
 
 /* Find Artists **/
-.findArtists { background:url(../images/find-arts-bg.jpg) center top no-repeat; }
+.findArtists { background:url(../images/discover.jpg) center top no-repeat; }
 .findArtists .artistWrp { padding:0 0 500px  }
 .findArtistsWrap h2 { font-size:48px; line-height:48px; padding:0 0 15px; text-transform:none; font-family: 'ProximaNovaRgBold'; background:url(../images/findart-hd-bg.png) left bottom no-repeat; margin:0 0 20px; }
 .findArtistsBlock { padding:0 0 0 50px; }
@@ -1915,3 +1915,14 @@ a.curious{background:url(../images/watch-video.png) left top no-repeat; padding:
 #background-video-mask{ top:70px !important;}
 .chrome #background-video-mask{ z-index:0 !important;}
 .chrome .indexPosition{ position:relative;}
+
+.findArtistsBlock{ width:800px;}
+.itemContainer{ }
+.findArtistsWrap .scroll-pane{height: 550px; width:800px; overflow: auto;	}
+
+.findArtists .disArtistWrp{ padding-bottom:0;}
+  #footerDisc{clear:both; background-image:none; margin:0 0 0; min-height:484px; position:relative; z-index:30; padding:160px 0 0;}
+  
+ .findArtistsBlock .jspDrag{ background: url(../images/slider-bottom-new.png) left 8px no-repeat;  }
+ .findArtistsBlock .jspTrack, .findArtistsBlock .jspVerticalBar{ background-color:transparent;}
+ .findArtistsBlock .jspDragBottom{background: url(../images/slider-top-new.png) left top no-repeat;}
