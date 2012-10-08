@@ -24,14 +24,12 @@
 	z-index: 8020;
 }
 
-.fancybox-skin {
-	position: relative;
-	background: #f9f9f9;
-	color: #444;
-	text-shadow: none;
-	-webkit-border-radius: 4px;
-	   -moz-border-radius: 4px;
-	        border-radius: 4px;
+ .fancybox-skin {
+/*    background: none repeat scroll 0 0 #F9F9F9;
+    border-radius: 4px 4px 4px 4px;*/
+    color: #444444;
+    position: relative;
+    text-shadow: none;
 }
 
 .fancybox-opened {
